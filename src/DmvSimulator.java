@@ -26,6 +26,8 @@ public class DmvSimulator
             System.out.println("Number: " + count + " is next");
             Thread.sleep(150);
         }
-
+        
+        //No PaperWork Message
+        System.out.println("I'm sorry number " + usersNumber + " you do not have the required paperwork please come back with the paperwork!");
     }
 }
