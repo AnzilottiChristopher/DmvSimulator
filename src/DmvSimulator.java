@@ -1,4 +1,5 @@
 import java.security.SecureRandom;
+import java.util.concurrent.TimeUnit;
 
 public class DmvSimulator 
 {
@@ -11,9 +12,20 @@ public class DmvSimulator
         //User's number
         SecureRandom randomNumber = new SecureRandom();
         int usersNumber = 1 + randomNumber.nextInt(100);
+        System.out.println("Your Number is: " + usersNumber);
+        Thread.sleep(1000);
+
+        //Printing the numbers until we get to the user's
         for(int count = usersNumber; count < 100; count++)
         {
             System.out.println("Number: " + (count + 1) + " is next");
+            Thread.sleep(150);
         }
+        for(int count = 1; count <= usersNumber; count++)
+        {
+            System.out.println("Number: " + count + " is next");
+            Thread.sleep(150);
+        }
+
     }
 }
