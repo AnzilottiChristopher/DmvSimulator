@@ -1,6 +1,4 @@
 import java.security.SecureRandom;
-import java.util.concurrent.TimeUnit;
-
 public class DmvSimulator 
 {
     public static void main(String[] args) throws Exception 
