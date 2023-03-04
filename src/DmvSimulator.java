@@ -14,7 +14,7 @@ public class DmvSimulator
         Thread.sleep(1000);
 
         //Printing the numbers until we get to the user's
-        for(int count = usersNumber; count < 100; count++)
+        for(int count = usersNumber; count < 200; count++)
         {
             System.out.println("Number: " + (count + 1) + " is next");
             Thread.sleep(150);
