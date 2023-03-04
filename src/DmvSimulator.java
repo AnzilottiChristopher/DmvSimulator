@@ -26,6 +26,6 @@ public class DmvSimulator
         }
         
         //No PaperWork Message
-        System.out.println("YO!" + usersNumber + "... \n You don't have the required paperwork!!! You stupid or something!!??! Come back with ALL of the REQUIRED paperwork... \n Now get out of my line");
+        System.out.println("MWAHAHAHAHAHAHHAHAHAHAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!");
     }
 }
